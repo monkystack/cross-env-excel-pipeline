@@ -78,18 +78,27 @@ playwright_project/
 │
 ├── main.py
 ├── config.py
+├── run.ps1
 │
 ├── pages/
+│   ├── export_page.py
+│   ├── login_page.py
+│   └── outbound_page.py
+│
 ├── utils/
+│   ├── close_popups.py
+│   ├── date_folder.py
+│   ├── download.py
+│   └── logging_setup.py
 │
 ├── scripts/
-│   ├── run.ps1
+│   ├── logs.psm1
 │   └── open_vba.ps1
 │
 ├── excel_tool/
 │   └── AnalyseTool.xlsm
 │
-├── scheduler/
+├── task/
 │   └── scheduled_task.xml
 │
 └── logs/   (generated at runtime)
