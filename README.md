@@ -68,7 +68,7 @@ The pipeline is fully automated using Windows Task Scheduler:
 * Multiple daily triggers
 * No manual intervention required
 * Executes via PowerShell wrapper (run.ps1)
-* 
+
 ---
 
 ## Project Structure
