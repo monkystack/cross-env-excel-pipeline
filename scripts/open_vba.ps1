@@ -26,9 +26,9 @@ try {
 
     $wb = $excel.Workbooks.Open($resolved.Path)
 
-    Write-Log "Running VBA Macro2..."
-    $excel.Run("Macro2", $finalFile)
-    Write-Log "Macro2 FINISHED (check vba/macro.log for details)"
+    Write-Log "Running VBA Macro..."
+    $excel.Run("Macro", $finalFile)
+    Write-Log "Macro FINISHED (check vba/macro.log for details)"
 
     # Close
     $wb.Close($false)
