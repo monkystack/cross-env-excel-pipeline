@@ -1,3 +1,5 @@
+![cover](./cover_image.jpg)
+
 # Playwright Excel Automation Pipeline
 
 ## Overview
